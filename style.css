@@ -25,13 +25,17 @@ header {
   top: 0;
   z-index: 1;
 }
+.header-overflow-contoller {
+  width: 100vw;
+  overflow: hidden;
+}
 #toggle {
   display: none;
 }
 
 .whole-container {
   width: 1300px;
-  overflow-x: hidden;
+
   background-color: #4b6584;
   box-shadow: 4px 0px 10px #abab, -4px 0px 10px #abab;
 }
