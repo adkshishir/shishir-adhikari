@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -14,7 +15,6 @@ body {
   font-weight: 600;
   justify-content: center;
   display: flex;
-  overflow-x: hidden;
   background-color: #12345678;
   animation-duration: 500ms;
   overflow-x: hidden;
