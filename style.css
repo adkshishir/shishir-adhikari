@@ -54,8 +54,7 @@ ul {
   margin-bottom: 1rem;
   transform: translateX(0px);
   transition-duration: 1s;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+
   top: 50px;
 }
 .nav-img {
@@ -177,7 +176,7 @@ svg:hover {
   grid-column: 1/5;
   background-color: black;
   color: white;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   justify-content: space-between;
 }
