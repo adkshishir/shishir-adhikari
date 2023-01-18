@@ -57,6 +57,7 @@ ul {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 50px;
+  overflow-x: unset;
 }
 .nav-img {
   width: 60px;
