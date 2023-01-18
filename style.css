@@ -511,6 +511,9 @@ a {
   li {
     margin-top: 0.5rem;
   }
+  .whole-container {
+    width: 100vw;
+  }
   .gmap_canvas {
     width: 100%;
     margin-right: unset;
