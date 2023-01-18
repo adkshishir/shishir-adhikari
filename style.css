@@ -9,6 +9,7 @@
 
 body {
   width: 100vw;
+  height: fit-content;
   color: #333;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -511,9 +512,7 @@ a {
   li {
     margin-top: 0.5rem;
   }
-  .whole-container {
-    width: 100vw;
-  }
+
   .gmap_canvas {
     width: 100%;
     margin-right: unset;
@@ -545,5 +544,9 @@ a {
   }
   .web-sites {
     grid-template-columns: 1fr;
+  }
+  .whole-container {
+    width: 100vw;
+    height: fit-content;
   }
 }
