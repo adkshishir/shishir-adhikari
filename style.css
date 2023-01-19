@@ -494,6 +494,9 @@ a {
   #item1 {
     width: 70%;
   }
+  .item2 {
+    padding: 2rem;
+  }
   .main-nav {
     display: inline-block;
     width: 40%;
