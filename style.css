@@ -251,7 +251,8 @@ svg:hover {
 }
 .work-box {
   width: 100%;
-  background-color: #001b39;
+  color: #5b5b5bdb;
+  background-color: #8ab9ef;
   padding: 1rem;
   margin: 1rem;
   font-size: 14px;
@@ -259,8 +260,8 @@ svg:hover {
   text-align: justify;
 }
 .work-box:hover {
-  background-color: #004697;
-  color: #001b39;
+  background-color: #c6e1ff;
+  color: #494949;
 }
 .work-image {
   width: 100%;
