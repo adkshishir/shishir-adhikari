@@ -13,33 +13,32 @@
     ></script>
   </head>
   <body>
+    <header>
+      <nav class="main-nav" id="main-nav">
+        <button id="toggle">
+          <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#00001A" fill-rule="evenodd">
+              <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+              <path d="M0 0h40v3H0z" />
+            </g>
+          </svg>
+        </button>
+        <div class="left-nav">
+          <img src="img/p2.jpeg" class="nav-img" /> Shishir Adhikari
+        </div>
+        <div class="right-nav">
+          <ul>
+            <li><a href="#home" class="nav">Home</a></li>
+            <li><a href="#" class="nav">About me</a></li>
+            <li><a href="#resume" class="nav">Resume</a></li>
+            <li><a href="#learning" class="nav">my learnings</a></li>
+            <li><a href="#myWorks" class="nav">My works</a></li>
+            <li></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <div class="whole-container">
-      <header>
-        <nav class="main-nav" id="main-nav">
-          <button id="toggle">
-            <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
-              <g fill="#00001A" fill-rule="evenodd">
-                <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
-                <path d="M0 0h40v3H0z" />
-              </g>
-            </svg>
-          </button>
-          <div class="left-nav">
-            <img src="img/p2.jpeg" class="nav-img" /> Shishir Adhikari
-          </div>
-          <div class="right-nav">
-            <ul>
-              <li><a href="#home" class="nav">Home</a></li>
-              <li><a href="#" class="nav">About me</a></li>
-              <li><a href="#resume" class="nav">Resume</a></li>
-              <li><a href="#learning" class="nav">my learnings</a></li>
-              <li><a href="#myWorks" class="nav">My works</a></li>
-              <li></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-
       <section>
         <div class="container" id="home">
           <div class="item item1">
@@ -296,10 +295,13 @@
           </div>
         </div>
       </section>
-      <div class="item item10 footer">
-        <div>
-          <h2>Direct Contact</h2>
-          <div class="contact-holder">
+    </div>
+    <div class="item item10 footer">
+      <div>
+        <h2>Direct Contact</h2>
+
+        <div class="contact-holder">
+          <div>
             <a
               class="footer-nav nav"
               href="https://www.facebook.com/profile.php?id=100007039997198"
@@ -307,12 +309,16 @@
             >
               <img class="footer-png" src="img/facebook.png" alt=""
             /></a>
+          </div>
+          <div>
             <a
               class="footer-nav nav"
               href="https://www.instagram.com/adhikari_shishir_/?hl=en"
               target="_blank"
               ><img class="footer-png" src="img/instagram.png" alt=""
             /></a>
+          </div>
+          <div>
             <a
               class="footer-nav nav"
               href="https://github.com/adkshishir"
@@ -321,17 +327,17 @@
             /></a>
           </div>
         </div>
-        <div>
-          <div>you Can find me...</div>
-          <iframe
-            class="gmap_canvas"
-            src="https://maps.google.com/maps?q=pokhara,Sagar%20Subedi&t=k&z=19&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-          ></iframe>
-        </div>
+      </div>
+      <div>
+        <div>you Can find me...</div>
+        <iframe
+          class="gmap_canvas"
+          src="https://maps.google.com/maps?q=pokhara,Sagar%20Subedi&t=k&z=19&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
       </div>
     </div>
     <script src="index.js"></script>

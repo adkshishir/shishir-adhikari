@@ -14,7 +14,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   justify-content: center;
-  display: flex;
+  /* display: flex; */
+  margin-left: 2.5rem;
   background-color: #12345678;
   animation-duration: 500ms;
   overflow-x: hidden;
@@ -25,6 +26,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  margin-left: -2.5rem;
 }
 
 #toggle {
@@ -174,10 +176,11 @@ svg:hover {
   text-align: center;
 }
 .item10 {
-  grid-column: 1/5;
+  margin-left: -2.5rem;
   background-color: black;
+  padding: 1rem;
   color: white;
-  /* width: 100vw; */
+  text-align: center;
   display: flex;
   justify-content: space-between;
 }
@@ -274,7 +277,7 @@ a {
   display: block;
   width: fit-content;
   text-decoration: none;
-  color: #7d5fff;
+  color: #320fceeb;
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -286,8 +289,9 @@ a {
 
 .nav:hover {
   color: rgb(228, 126, 126);
-  transition: all 1s;
+  transition: all 0.5s;
 }
+
 .footer-png {
   width: 50px;
   margin: 2rem;
@@ -295,6 +299,7 @@ a {
 }
 .footer-png:hover {
   opacity: 0.7;
+  width: 55px;
 }
 .my-name {
   font-size: 3rem;
@@ -461,6 +466,12 @@ a {
 }
 
 @media (width<=900px) {
+  body {
+    margin-left: unset;
+  }
+  header {
+    margin-left: unset;
+  }
   .container {
     grid-template-columns: 1fr;
     width: 100vw;
@@ -523,6 +534,7 @@ a {
   .item10 {
     display: block;
     margin: unset;
+    padding: 0.5rem;
     text-align: center;
   }
   .web-sites {

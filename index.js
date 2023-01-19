@@ -25,7 +25,6 @@ function toggleFunction() {
   </svg>`;
 
     mainNav.style.transform = "translateX(-100vw)";
-
     toggle.style.transform = "translateX(100vw)";
   } else {
     toggle.innerHTML = `
